@@ -6,7 +6,7 @@ from shiny import ui
 # UTIL
 # =========================================================
 def load_html(path):
-    with open(path, "r") as f:
+    with open(path, "r", encoding="utf-8") as f:
         html = f.read()
 
     # Extract only the content within the main tag to avoid including
