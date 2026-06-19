@@ -1,6 +1,6 @@
 # Global Hub Dashboard (ALIGN)
 
-This is a Python-based Shiny application for the Global Hub Dashboard. It visualizes innovation pipeline data, readiness assessments, and impact analysis.
+This is a Python-based Shiny application for the Senegal Hub Dashboard. It visualizes innovation pipeline data, readiness assessments, and impact analysis.
 
 ## Prerequisites
 
