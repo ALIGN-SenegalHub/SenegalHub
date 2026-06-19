@@ -1,6 +1,6 @@
 :root{
---brand-primary: #012169;
---brand-accent: #00539B;
+--brand-primary: #075E45;
+--brand-accent: #00853F;
 --brand-light: #ffffff;
 --text-dark: #2F2F2F;
 --text-light: #2F2F2F;
@@ -9,7 +9,7 @@
 --card-shadow: rgba(215, 215, 215, 0.8);
 
 --input-focus-border: var(--brand-accent);
---input-focus-shadow: rgba(0, 83, 155, 0.25);
+--input-focus-shadow: rgba(0, 133, 63, 0.25);
 
 --success-color: #228B22;
 --error-color: #DC143C;
