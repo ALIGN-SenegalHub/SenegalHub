@@ -124,14 +124,14 @@ app_ui = ui.page_navbar(
             ui.tags.i(class_="fa-brands fa-github me-2"),
             ui.tags.a(
                 "GitHub",
-                href="https://github.com/ALIGN-GlobalHub/GlobalHub",
+                href="https://github.com/ALIGN-SenegalHub/SenegalHub",
                 target="_blank",
             ),
             ui.tags.span(" | "),
             ui.tags.i(class_="fa-solid fa-envelope me-2"),
             ui.tags.a(
                 "Contact",
-                href="mailto:align@duke.edu",
+                href="mailto:gtt.align@enda-sante.org",
             ),
         ),
         style="""
