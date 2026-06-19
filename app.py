@@ -22,16 +22,19 @@ app_ui = ui.page_navbar(
     # NAVIGATION
     # -------------------------
     nav_panel(
-        "About",
+        "À propos",
         about_ui("about"),
+        value="about",
     ),
     nav_panel(
-        "Overview",
+        "Vue d’ensemble",
         innovation_page_ui("innovation_page"),
+        value="overview",
     ),
     nav_panel(
-        "Product comparison",
+        "Comparaison des produits",
         comparison_ui("comparison"),
+        value="comparison",
     ),
     id="main_nav",
     # -------------------------
@@ -39,7 +42,7 @@ app_ui = ui.page_navbar(
     # -------------------------
     title=ui.tags.div(
         ui.tags.img(
-            src="logo/without_partners_white.png",
+            src="logo/logo_mshp_sn.png",
             height="60px",
             class_="brand-logo",
         ),
@@ -81,9 +84,12 @@ app_ui = ui.page_navbar(
             ui.div(
                 ui.div(
                     ui.div(
-                        ui.h1("ALIGN Global Hub", class_="fw-bold display-5 mb-1"),
+                        ui.h1(
+                            "Hub national ALIGN-Sénégal",
+                            class_="fw-bold display-5 mb-1",
+                        ),
                         ui.p(
-                            "Market intelligence hub for global health products",
+                            "Plateforme d’intelligence de marché pour les produits de santé",
                             class_="lead text-muted mb-0",
                         ),
                         class_="flex-grow-1",
@@ -106,11 +112,11 @@ app_ui = ui.page_navbar(
             height="120px",
             style="margin-bottom: 15px;",
         ),
-        ui.p("© 2026 ALIGN Consortium. All rights reserved."),
+        ui.p("© 2026 Consortium ALIGN. Tous droits réservés."),
         ui.div(
             ui.tags.i(class_="fa-solid fa-globe me-2"),
             ui.tags.a(
-                "Website",
+                "Site web",
                 href="https://alignconsortium.org",
                 target="_blank",
             ),
@@ -162,7 +168,7 @@ def server(input, output, session):
     def cart_container():
 
         # Hide cart on About page
-        if input.main_nav() == "About":
+        if input.main_nav() == "about":
             return None
 
         items = list(cart.get())
@@ -250,7 +256,7 @@ def server(input, output, session):
     @reactive.Effect
     @reactive.event(input.go_to_comparison)
     def _go_to_comparison():
-        ui.update_navs("main_nav", selected="Product comparison")
+        ui.update_navs("main_nav", selected="comparison")
 
     @reactive.Effect
     @reactive.event(input.clear_cart)

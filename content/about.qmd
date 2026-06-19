@@ -6,319 +6,329 @@ format:
     css: ../www/styles.css
     self-contained: true
 params:
-  last_updated: "2026-03-27"
+  last_updated: "2026-06-18"
 engine: knitr
 ---
 
 <div class="about-meta">
-Last updated: `r params$last_updated`
+Dernière mise à jour : 18 juin 2026
 </div>
 
 ---
 
-## What is ALIGN?
+## Qu'est-ce qu'ALIGN ?
 
-The **Advancing Country-Led Innovation Introduction through Government Engagement and EvideNce (ALIGN) Consortium** aims to improve health outcomes by strengthening how health products are prioritized and introduced within countries.
+Le consortium **ALIGN (Advancing Country-Led Innovation Introduction through Government Engagement and Evidence)** vise à améliorer les résultats en matière de santé en renforçant la manière dont les produits de santé sont priorisés et introduits dans les pays.
 
-ALIGN brings together the Duke Global Health Innovation Center, the South African Medical Research Council (SAMRC), Keprecon, and ENDA Santé to support governments in South Africa, Kenya, and Senegal across:
+ALIGN réunit plusieurs organisations et universités, notamment le Duke Global Health Innovation Center (Université Duke, États-Unis), le South African Medical Research Council (SAMRC), Keprecon et ENDA Santé, afin de soutenir les gouvernements d'Afrique du Sud, du Kenya et du Sénégal dans les domaines suivants :
 
-- Whole-of-government coordination and capacity strengthening  
-- Data-driven decision-making  
-- Whole-of-market engagement (national, regional, global)  
-- Portfolio-based planning  
+- Coordination pangouvernementale et renforcement des capacités
+- Prise de décision fondée sur les données
+- Engagement à l'échelle du marché (national, régional, mondial)
+- Planification basée sur le portefeuille
 
-**Resources**:
+**Ressources :**
 
-→ [ALIGN website](https://dukeghic.org/projects/align-consortium/)
+→ [Site web ALIGN](https://dukeghic.org/projects/align-consortium/)
 
-→ [ALIGN Substack](https://alignconsortium.substack.com/)
+→ [Substack ALIGN](https://alignconsortium.substack.com/)
 
-## What is the ALIGN Global Hub?
+## Qu'est-ce que le Hub national ALIGN-Sénégal ?
 
-The ALIGN Global Hub is a **market intelligence platform** designed to support prioritization and introduction decisions for health products.
+Le Hub national ALIGN-Sénégal est une **plateforme d'intelligence de marché** conçue pour faciliter les décisions de priorisation et de lancement de produits de santé.
 
-It aggregates fragmented data across clinical development, regulatory systems, procurement platforms, and policy frameworks into a single, structured view.
+Il agrège les données fragmentées issues du développement clinique, des systèmes réglementaires, des données épidémiologiques, de morbidité et de mortalité, des plateformes d'approvisionnement et des cadres politiques, entre autres, en une vue unique et structurée.
 
-This tool enables users to:
+Cet outil permet aux utilisateurs de :
 
-- Compare products across pipelines and applications  
-- Anticipate what is coming to market  
-- Support evidence-informed prioritization decisions  
+- Comparer les produits de santé, particulièrement dans le domaine de la SRMNIA-N, à travers les portefeuilles et les applications
+- Anticiper les produits de santé en cours de mise sur le marché ou qui le seront dans les années à venir
+- Soutenir les décisions de priorisation fondées sur des données probantes
 
 ---
 
 ::: {.callout-note collapse="true"}
-## Why does this Hub exist?
+## Pourquoi ce Hub national existe-t-il ?
 
-Health product data are fragmented across multiple systems:
+Les données relatives aux produits de santé sont fragmentées et réparties dans de multiples systèmes :
 
-- Clinical trial registries  
-- Regulatory agencies  
-- Procurement databases  
-- Policy lists  
+- Registres d'essais cliniques
+- Organismes de réglementation
+- Bases de données d'approvisionnement
+- Bases de données de recherche
+- Bases de données épidémiologiques
+- Normes politiques
+- Etc.
 
-This fragmentation limits the ability to:
+Cette fragmentation limite la capacité de :
 
-- Compare products across applications and timelines  
-- Identify what is coming to market  
-- Prioritize introduction decisions  
-- Align financing, procurement, and delivery planning
+- Comparer les produits selon les applications et les échéances de mise sur le marché
+- Identifier rapidement les produits qui arrivent sur le marché
+- Prioriser les décisions d'introduction de ces produits selon les capacités financières, les besoins du pays, etc.
+- Harmoniser le financement, l'approvisionnement et la planification de la livraison
 
-**ALIGN’s theory of change:**  
-Integrating fragmented data → enabling comparison → improving prioritization → accelerating equitable product introduction.
+**Théorie du changement d'ALIGN :**
 
-**Resources:**
+Intégration des données fragmentées → facilitation de la comparaison → amélioration de la priorisation → accélération de l'introduction équitable des produits.
 
-→ [ALIGN Theory of Change (coming soon)]()
-→ [Evidence Brief: Data Fragmentation (coming soon)]()
+**Ressources :**
+
+→ [Théorie du changement ALIGN (à venir)]()
+
+→ [Note de synthèse : Fragmentation des données (à venir)]()
 :::
 
 ---
 
 ::: {.callout-note collapse="true"}
-## What decisions this tool supports
+## Quelles décisions cet outil permet-il de prendre ?
 
-The Global Hub is designed to support key decision points in health product introduction:
+Le Hub Sénégal est conçu pour soutenir les points de décision clés dans le lancement de produits de santé :
 
-- **Prioritization**  
-  Which products should be considered given national needs and constraints?
+- **Priorisation**  
+  Quels produits faut-il envisager compte tenu des besoins et des contraintes nationales ?
 
-- **Sequencing**  
-  When should products be introduced relative to others in the pipeline?
+- **Séquençage**  
+  À quel moment faut-il lancer les produits par rapport aux autres en cours de développement ?
 
-- **Financing alignment**  
-  How do projected timelines align with budget cycles and funding availability?
+- **Alignement des financements**  
+  Comment les échéanciers prévus s'alignent-ils sur les cycles budgétaires et la disponibilité des fonds ?
 
-- **System readiness**  
-  Are delivery systems prepared for introduction and scale?
+- **État de préparation du système**  
+  Les systèmes de distribution sont-ils prêts pour leur introduction et leur déploiement à grande échelle ?
 
-These decisions are typically made with incomplete or fragmented data - The Global Hub aims to make them more structured and comparable.
+Ces décisions sont généralement prises sur la base de données incomplètes ou fragmentées. Le Hub Sénégal vise à les rendre plus structurées et comparables.
 :::
 
 ---
 
 ::: {.callout-note collapse="true"}
-## How to use the Hub
+## Comment utiliser le Hub
 
-The Hub supports a simple workflow: explore → compare → interpret → decide
+Le Hub propose un flux de travail simple : explorer → comparer → interpréter → décider.
 
-**Explore**: 
+**Explorer :**
 
--  On the *Overview* page, navigate to the produce explorer. You can filter by  disease category, product type, manufacturer or development stage by typing in the area you’re interested in. You can also use global page filters by clicking on the drop down menus or clicking the interactive plots. You can always reset the filters by clicking the blue circle arrow in the bottom-right of your screen.
--  Select a product you are interested in and scroll down to view additional details including projected launch timeline and global introduction readiness. 
+- Sur la page *Vue d'ensemble*, accédez à l'explorateur de produits. Vous pouvez filtrer par catégorie de maladie, type de produit, fabricant ou stade de développement en saisissant le critère qui vous intéresse. Vous pouvez également utiliser les filtres globaux de la page en cliquant sur les menus déroulants ou sur les graphiques interactifs. Vous pouvez réinitialiser les filtres à tout moment en cliquant sur la flèche bleue circulaire en bas à droite de votre écran.
+- Sélectionnez un produit qui vous intéresse et faites défiler vers le bas pour afficher des détails supplémentaires, notamment le calendrier de lancement prévu et l'état de préparation à une commercialisation mondiale.
 
+**Comparer :**
 
-**Compare**
+- Sélectionnez le produit que vous souhaitez comparer et cliquez sur le bouton vert « Ajouter au panier » en haut à droite de l'explorateur de produits. Répétez l'opération pour ajouter d'autres produits à comparer.
+- Accédez ensuite à la page de comparaison des produits ou cliquez sur le panier en haut à droite de l'écran et sélectionnez « Comparer vos produits ».
 
--  Select the product you want to compare and hit the green “Add to Cart” button at the top right hand corner of the product explorer. Repeat to add products you wish to compare.
--  Then navigate to the Product Comparison page or click on the Cart in the upper right corner of the screen and select “Compare your products”
- 
+**Interpréter :** comparer les échéanciers prévus et réels des étapes clés.
 
-**Interpret** : Review projected vs actual milestone timelines  
+**Décider :** bientôt disponible ! → Un outil de priorisation qui intègre les échéanciers prévisionnels, le rapport coût-efficacité et la probabilité de succès pour faciliter la prise de décision basée sur le portefeuille.
 
-**Decide** : Coming soon! → a prioritization tool that incorporates projected timelines, cost-effectiveness, and likelihood of success to support portfolio-based decision-making.
+##### Guides d'utilisation
 
+→ [Guide de démarrage rapide (à venir)](https://align-globalhub.github.io/GlobalHub/content/documentation/technical_guide.html){target="_blank"}
 
-##### User guides
-  
-→ [Quick Start Guide (coming soon)](https://align-globalhub.github.io/GlobalHub/content/documentation/technical_guide.html){target="_blank"}  
-→ [Full User Manual (coming soon)]()  
-→ [Video walkthrough (coming soon)]()  
+→ [Manuel d'utilisation complet (à venir)]()
 
+→ [Visite vidéo (à venir)]()
 :::
 
 ---
 
 ::: {.callout-note collapse="true"}
-## Scope of data
+## Portée des données
 
-The current version of the Global Hub focuses on selected **high-priority** health applications::
+La version actuelle du Hub Sénégal se concentre sur une sélection d'applications de santé **hautement prioritaires** :
 
-- HIV/AIDS,
-- Tuberculosis (TB),  
-- Malaria, 
-- Maternal, newborn, and child health (MNCH)  
+- Santé maternelle, néonatale et infantile (SMNI)
+- VIH/SIDA
+- Tuberculose (TB)
+- Paludisme
 
-Health products are categorized by:
+Les produits de santé sont classés par :
 
-- **Type**: therapeutics, vaccines, diagnostics, medical devices
-- **Indication**: specific diseases or conditions
+- **Type :** produits thérapeutiques, vaccins, diagnostics, dispositifs médicaux
+- **Indication :** maladies ou affections spécifiques
 
-**Documentation:**
+**Documentation :**
 
-→ [Applications & Inclusion Criteria](https://align-globalhub.github.io/GlobalHub/content/documentation/inclusion_criteria.html){target="_blank"}
-→ [MNCH Definitions](https://align-globalhub.github.io/GlobalHub/content/documentation/mnch_framework.html){target="_blank"}
-→ [Data Dictionary](https://align-globalhub.github.io/GlobalHub/content/documentation/data_dictionary.html){target="_blank"}
+→ [Applications et critères d'inclusion](https://align-globalhub.github.io/GlobalHub/content/documentation/inclusion_criteria.html){target="_blank"}
+
+→ [Définitions de la SMNI](https://align-globalhub.github.io/GlobalHub/content/documentation/mnch_framework.html){target="_blank"}
+
+→ [Dictionnaire de données](https://align-globalhub.github.io/GlobalHub/content/documentation/data_dictionary.html){target="_blank"}
 :::
 
 ---
 
 ::: {.callout-note collapse="true"}
-## Data sources
+## Sources de données
 
-ALIGN integrates structured data across pharmaceutical R&D, regulatory systems, procurement platforms, and policy frameworks to create a comprehensive view of the health product landscape.
+ALIGN intègre des données structurées issues de la R&D pharmaceutique, des systèmes réglementaires, des plateformes d'approvisionnement et des cadres politiques afin de créer une vue d'ensemble du paysage des produits de santé.
 
-Data sources are integrated in phases.
+Les sources de données sont intégrées par phases.
 
-- **Completed** → fully available in the current version  
-- **In-progress** → partially integrated or under active development  
-- **Planned** → scheduled for future releases based on priority and feasibility  
+- **Complété** → entièrement disponible dans la version actuelle
+- **En cours** → partiellement intégré ou en développement actif
+- **Prévu** → intégré dans les prochaines versions en fonction de la priorité et de la faisabilité
 
+| Base de données | Domaine | Portée | Statut | Chronologie |
+|---|---|---|---|---|
+| Suivi de la R&D d'Impact Global Health ; engagements financiers de G-finder | Financement de la R&D | Mondial | Complété | — |
+| Pipeline antipaludique MMV | Pipeline de R&D | Mondial | Complété | — |
+| Portefeuille DNDi | Portefeuille de R&D | Mondial | Complété | — |
+| Répertoire de tests DxConnect | Répertoire de diagnostic | Mondial | Complété | — |
+| ClinicalTrials.gov | Essais cliniques | Mondial | En cours | 2e trimestre 2026 |
+| Base de données des essais cliniques AVAC | Essais cliniques | Mondial | En cours | 2e trimestre 2026 |
+| MPP LAPaL | Licence | Mondial | En cours | 2e trimestre 2026 |
+| MPP MedsPaL | PI/Brevets | Mondial | En cours | 2e trimestre 2026 |
+| Plateforme internationale d'enregistrement des essais cliniques (ICTRP) | Essais cliniques | Mondial | En attente | 2e et 3e trimestres 2026 |
+| ChiCTR de Chine | Essais cliniques | Chine | Pas encore commencé | 2e trimestre 2026 |
+| PACTR d'Afrique | Essais cliniques | Afrique | Pas encore commencé | 2e trimestre 2026 |
+| ReBEC du Brésil | Essais cliniques | Brésil | Pas encore commencé | 2e trimestre 2026 |
+| Registre des essais de l'Union européenne | Essais cliniques | Europe |  | 2e trimestre 2026 |
+| EMA (Agence européenne des médicaments) | Réglementaire | UE | Pas encore commencé | 3e trimestre 2026 |
+| SAHPRA | Réglementaire | Afrique du Sud | Pas encore commencé | 3e trimestre 2026 |
+| Statut réglementaire des médicaments selon l'OMS | Réglementaire | Mondial | Pas encore commencé | 3e trimestre 2026 |
+| Liste de préqualification de l'OMS (PQ) | Préqualification | Mondial | Pas encore commencé | 3e trimestre 2026 |
+| Global EML | EML (comparatif) | Mondial |  | 3e trimestre 2026 |
+| Système mondial de notification des prix de l'OMS | Tarification | Mondial | Pas encore commencé | 4e trimestre 2026 |
+| Liste de prix GF | Tarification | Mondial | Pas encore commencé | 4e trimestre 2026 |
+| Achat de GF ARV | Approvisionnement | Mondial | Pas encore commencé | 4e trimestre 2026 |
+| Transactions GF VIH | Transactions | Mondial | Pas encore commencé | 4e trimestre 2026 |
+| Explorateur de données GF | Portefeuille/dépenses | Mondial | Pas encore commencé | 4e trimestre 2026 |
+| Rapports annuels de GF | Rapports | Mondial | Pas encore commencé | 4e trimestre 2026 |
+| Base de données PEPFAR | Dépenses/Approvisionnement | Mondial | Pas encore commencé | 4e trimestre 2026 |
+| Catalogue des fournitures de l'UNICEF | Catalogue/Tarifs | Mondial | Pas encore commencé | 4e trimestre 2026 |
+| Rapports de l'UNICEF sur le marché des approvisionnements | Intelligence de marché | Mondial | Pas encore commencé | 4e trimestre 2026 |
+| Demande de l'OMS en matière d'ARV et de diagnostics : prévisions des tendances du marché | Demande/Prévisions | Mondial |  | 2027 |
+| Impact Global Health – Produits de santé maternelle | Pipeline de R&D | Mondial | Pas encore commencé | 2027 |
+| Impact Global Health – Produits gynécologiques | Pipeline de R&D | Mondial | Pas encore commencé | 2027 |
+| Portefeuille du fonds GHIT | Portefeuille de R&D | Mondial | Pas encore commencé | 2027 |
+| Fabrication de diagnostics PATH | Répertoire des fabricants | Mondial | Pas encore commencé | 2027 |
+| Base de données CHAI sur la fabrication locale de vaccins | Fabrication | Mondial | Pas encore commencé | 2027 |
+| Biocapteur SD | Fabrication | Mondial | Pas encore commencé | 2027 |
+| Walvax | Fabrication | Chine/Monde | Pas encore commencé | 2027 |
+| Zhifei Biological | Fabrication | Chine/Monde | Pas encore commencé | 2027 |
+| Pipeline GSK | Pipeline de l'entreprise | Mondial | Pas encore commencé | 2027 |
+| Pipeline de Pfizer | Pipeline de l'entreprise | Mondial | Pas encore commencé | 2027 |
+| Pipeline de Merck | Pipeline de l'entreprise | Mondial | Pas encore commencé | 2027 |
+| Pipeline de R&D de Janssen | Pipeline de l'entreprise | Mondial | Pas encore commencé | 2027 |
 
-| Database | Domain | Scope | Status | Timeline |
-|----------|--------|-------|--------|----------|
-| Impact Global Health R&D tracker; G-finder financial commitments | R&D Funding | Global | Completed | — |
-| MMV antimalarial pipeline | R&D Pipeline | Global | Completed | — |
-| DNDi portfolio | R&D Portfolio | Global | Completed | — |
-| FIND DxConnect Test Directory | Diagnostic directory | Global | Completed | — |
-| Clinicaltrials.gov | Clinical Trials | Global | In-progress | Q2 2026 |
-| AVAC clinical trials database | Clinical Trials | Global | In-progress | Q2 2026 |
-| MPP LAPaL | Licensing | Global | In-progress | Q2 2026 |
-| MPP MedsPaL | IP/Patents | Global | In-progress | Q2 2026 |
-| International Clinical Trials registry platform (ICTRP) | Clinical Trials | Global | On-hold | Q2–Q3 2026 |
-| China’s ChiCTR | Clinical Trials | China | Not started | Q2 2026 |
-| Africa’s PACTR | Clinical Trials | Africa | Not started | Q2 2026 |
-| Brazil’s ReBEC | Clinical Trials | Brazil | Not started | Q2 2026 |
-| European Union trials registry | Clinical Trials | Europe |  | Q2 2026 |
-| EMA (European Medicines Agency) | Regulatory | EU | Not started | Q3 2026 |
-| SAHPRA | Regulatory | South Africa | Not started | Q3 2026 |
-| WHO Drug Regulatory Status | Regulatory | Global | Not started | Q3 2026 |
-| WHO Prequalification list (PQ) | Pre-qualification | Global | Not started | Q3 2026 |
-| Global EML | EML (Comparative) | Global |  | Q3 2026 |
-| WHO Global Price Reporting System | Pricing | Global | Not started | Q4 2026 |
-| GF price list | Pricing | Global | Not started | Q4 2026 |
-| GF ARV procurement | Procurement | Global | Not started | Q4 2026 |
-| GF HIV Transactions | Transactions | Global | Not started | Q4 2026 |
-| GF data Explorer | Portfolio/spend | Global | Not started | Q4 2026 |
-| GF annual reports | Reporting | Global | Not started | Q4 2026 |
-| PEPFAR database | Spend/Procurement | Global | Not started | Q4 2026 |
-| UNICEF Supply Catalogue | Catalogue/Pricing | Global | Not started | Q4 2026 |
-| UNICEF supply market reports | Market intelligence | Global | Not started | Q4 2026 |
-| WHO ARV and diagnostics demand: forecasting market trends | Demand/Forecast | Global |  | 2027 |
-| Impact Global Health – Maternal health products | R&D Pipeline | Global | Not started | 2027 |
-| Impact Global Health – Gynecological products | R&D Pipeline | Global | Not started | 2027 |
-| GHIT fund portfolio | R&D Portfolio | Global | Not started | 2027 |
-| PATH diagnostic manufacturing | Manufacturing directory | Global | Not started | 2027 |
-| CHAI local vaccine manufacturing database | Manufacturing | Global | Not started | 2027 |
-| SD Biosensor | Manufacturing | Global | Not started | 2027 |
-| Walvax | Manufacturing | China/Global | Not started | 2027 |
-| Zhifei Biological | Manufacturing | China/Global | Not started | 2027 |
-| GSK pipeline | Company pipeline | Global | Not started | 2027 |
-| Pfizer pipeline | Company pipeline | Global | Not started | 2027 |
-| Merck pipeline | Company pipeline | Global | Not started | 2027 |
-| Janssen R&D pipeline | Company pipeline | Global | Not started | 2027 |
+**Documentation complète :**
 
-**Full documentation:**
-
-- [Full Horizon Scanning Database List](https://align-globalhub.github.io/GlobalHub/content/documentation/horizon_sources.html){target="_blank"}
-- [Source Integration Methods](https://align-globalhub.github.io/GlobalHub/content/documentation/source_methods.html){target="_blank"}
+- [Liste complète des bases de données de veille stratégique](https://align-globalhub.github.io/GlobalHub/content/documentation/horizon_sources.html){target="_blank"}
+- [Méthodes d'intégration des sources](https://align-globalhub.github.io/GlobalHub/content/documentation/source_methods.html){target="_blank"}
 :::
 
 ---
 
 ::: {.callout-note collapse="true"}
-## How to interpret the data
+## Comment interpréter les données
 
-- Projected timelines are estimates based on observed patterns and available data  
-- Status reflects data availability, not certainty of outcomes  
-- Comparisons are intended to support decision-making, not replace contextual judgment  
+- Les échéanciers prévus sont des estimations basées sur les tendances observées et les données disponibles
+- Le statut reflète la disponibilité des données, et non la certitude des résultats
+- Les comparaisons sont destinées à faciliter la prise de décision, et non à remplacer le jugement contextuel
 
-Users should interpret outputs in conjunction with national priorities, financing constraints, and system capacity.
+Les utilisateurs doivent interpréter les résultats en tenant compte des priorités nationales, des contraintes de financement et des capacités du système.
 :::
 
 ---
 
 ::: {.callout-note collapse="true"}
-## Methodology
+## Méthodologie
 
-The Hub transforms fragmented data into **decision-ready insights** through structured integration, validation, and projection methods.
+Le Hub transforme les données fragmentées en **informations exploitables** grâce à des méthodes structurées d'intégration, de validation et de projection.
 
-##### Data integration
+##### Intégration des données
 
-Data are harmonized into a unified product registry using:
+Les données sont harmonisées dans un registre de produits unifié à l'aide de :
 
-- Name and synonym matching  
-- Identifier mapping  
-- Cross-source validation  
+- Correspondance des noms et des synonymes
+- Correspondance des identifiants
+- Validation inter-sources
 
-→ [Data Integration Pipeline](https://align-globalhub.github.io/GlobalHub/content/documentation/integration_pipeline.html){target="_blank"}
+→ [Pipeline d'intégration des données](https://align-globalhub.github.io/GlobalHub/content/documentation/integration_pipeline.html){target="_blank"}
 
+##### Indicateurs clés
 
-##### Key metrics
+**Étapes clés suivies :**
 
-**Milestones tracked:**
+- Preuve de concept
+- Autorisation de mise sur le marché
+- Premier lancement dans les pays à revenu faible et intermédiaire
 
-- Proof of concept  
-- Marketing authorization  
-- First launch in LMICs
+→ [Étapes clés du lancement de produit](https://align-globalhub.github.io/GlobalHub/content/documentation/product_milestones.html){target="_blank"}
 
-→ [Product introduction milestones](https://align-globalhub.github.io/GlobalHub/content/documentation/product_milestones.html){target="_blank"}
-→ [Cost-effectiveness analysis](https://align-globalhub.github.io/GlobalHub/content/documentation/cost_effectiveness.html){target="_blank"}
-→ [Likelihood of success analysis](https://align-globalhub.github.io/GlobalHub/content/documentation/likelihood_of_success.html){target="_blank"}
+→ [Analyse coût-efficacité](https://align-globalhub.github.io/GlobalHub/content/documentation/cost_effectiveness.html){target="_blank"}
 
-##### Full documentation
+→ [Analyse des probabilités de succès](https://align-globalhub.github.io/GlobalHub/content/documentation/likelihood_of_success.html){target="_blank"}
 
-→ [Full Methodology Report](https://align-globalhub.github.io/GlobalHub/content/documentation/methodology.html){target="_blank"}
-→ [Forecasting Methods](https://align-globalhub.github.io/GlobalHub/content/documentation/forecasting.html){target="_blank"}
-→ [Validation Protocol](https://align-globalhub.github.io/GlobalHub/content/documentation/validation.html){target="_blank"}
-→ [Technical Architecture Guide](https://align-globalhub.github.io/GlobalHub/content/documentation/technical_guide.html){target="_blank"}
+##### Documentation complète
+
+→ [Rapport complet sur la méthodologie](https://align-globalhub.github.io/GlobalHub/content/documentation/methodology.html){target="_blank"}
+
+→ [Méthodes de prévision](https://align-globalhub.github.io/GlobalHub/content/documentation/forecasting.html){target="_blank"}
+
+→ [Protocole de validation](https://align-globalhub.github.io/GlobalHub/content/documentation/validation.html){target="_blank"}
+
+→ [Guide d'architecture technique](https://align-globalhub.github.io/GlobalHub/content/documentation/technical_guide.html){target="_blank"}
 :::
 
 ---
 
 ::: {.callout-note collapse="true"}
-## Previous work: Integrated Horizon Scanning
+## Travaux antérieurs : Veille intégrée
 
-The Global Hub builds on ALIGN’s horizon scanning system, integrating:
+Le Hub national s'appuie sur le système de veille stratégique d'ALIGN et intègre :
 
-- R&D pipelines  
-- Regulatory approvals  
-- Procurement signals  
+- Pipelines de R&D
+- Approbations réglementaires
+- Signaux d'approvisionnement
 
-This enables tracking from development → introduction.
+Cela permet un suivi depuis le développement jusqu'à l'introduction.
 
-→ [Horizon Scanning Report](https://align-globalhub.github.io/GlobalHub/content/documentation/horizon_scanning.html){target="_blank"}
+→ [Rapport de veille stratégique](https://align-globalhub.github.io/GlobalHub/content/documentation/horizon_scanning.html){target="_blank"}
 :::
 
 ---
 
-## Definitions and documentation
+## Définitions et documentation
 
-→ [Pipeline Definitions & Terms (coming soon)]()  
-→ [ALIGN Data Dictionary](https://align-globalhub.github.io/GlobalHub/content/documentation/data_dictionary.html){target="_blank"}
-→ [Glossary](https://align-globalhub.github.io/GlobalHub/content/documentation/glossary.html){target="_blank"}
+→ [Définitions et termes relatifs aux pipelines (à venir)]()
+
+→ [Dictionnaire de données ALIGN](https://align-globalhub.github.io/GlobalHub/content/documentation/data_dictionary.html){target="_blank"}
+
+→ [Glossaire](https://align-globalhub.github.io/GlobalHub/content/documentation/glossary.html){target="_blank"}
 
 ---
 
 ::: {.callout-warning collapse="true"}
-## Roadmap
+## Feuille de route
 
-The roadmap reflects planned expansions in data coverage, analytical capabilities, and decision-support functionality.
+La feuille de route reflète les développements prévus en matière de couverture des données, de capacités analytiques et de fonctionnalités d'aide à la décision.
 
-**Q3 2026**
+**3e trimestre 2026**
 
-- National Hub pilots (Kenya, South Africa and Senegal)  
-- Expanded application coverage beyond TB, HIV, malaria, and MNCH. 
+- Projets pilotes (Sénégal)
+- Couverture d'application élargie au-delà de la SRMNIA-N, de la tuberculose et du paludisme
 
-**Q4 2026**
-  
-- Integration of predictive modeling (probability of success and time to market)  
-- Portfolio prioritization tools (e.g. budget impact and combined cost-effectiveness)  
+**4e trimestre 2026**
 
-**Q1 2027**
+- Intégration de la modélisation prédictive (probabilité de succès et délai de mise sur le marché)
+- Outils de priorisation de portefeuille (par exemple, impact budgétaire et rapport coût-efficacité combiné)
 
-- Integration and harmonization of country-specific product databases 
-- Demand + delivery data integration  
+**1er trimestre 2027**
+
+- Intégration et harmonisation des bases de données produits spécifiques à chaque pays
+- Intégration des données de demande et de livraison
 :::
 
 ---
 
 ::: {.callout-important collapse="true"}
-## Current limitations
+## Limitations actuelles
 
-- Some metrics are still under development  
-- Coverage is partial  
-- Projections may change as data updates  
+- Certaines métriques sont encore en cours de développement
+- La couverture est partielle
+- Les projections peuvent évoluer en fonction des mises à jour des données
 
-Future releases will expand scope, improve accuracy, and enhance usability.
+Les prochaines versions élargiront la portée, amélioreront la précision et optimiseront la convivialité.
 :::
