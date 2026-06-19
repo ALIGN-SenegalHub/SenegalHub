@@ -1,124 +1,133 @@
-:root{
---brand-primary: #075E45;
---brand-accent: #00853F;
---brand-light: #ffffff;
---text-dark: #2F2F2F;
---text-light: #2F2F2F;
---card-bg: #ffffff;
---card-border: #BFBBBB;
---card-shadow: rgba(215, 215, 215, 0.8);
+:root {
+  --brand-primary: #3378e1;
+  --brand-accent: #00853f;
+  --brand-light: #ffffff;
+  --text-dark: #2f2f2f;
+  --text-light: #2f2f2f;
+  --card-bg: #ffffff;
+  --card-border: #bfbbbb;
+  --card-shadow: rgba(215, 215, 215, 0.8);
 
---input-focus-border: var(--brand-accent);
---input-focus-shadow: rgba(0, 133, 63, 0.25);
+  --input-focus-border: var(--brand-accent);
+  --input-focus-shadow: rgba(0, 133, 63, 0.25);
 
---success-color: #228B22;
---error-color: #DC143C;
---highlight-color: #FFD700;
+  --success-color: #228b22;
+  --error-color: #dc143c;
+  --highlight-color: #ffd700;
 }
 
 /* =========================
 BASE
 ========================= */
 body {
-font-family: 'Inter', sans-serif;
-color: var(--text-dark);
-background-color: #f8f9fa;
-line-height: 1.6;
-padding-bottom: 2rem;
+  font-family: "Inter", sans-serif;
+  color: var(--text-dark);
+  background-color: #f8f9fa;
+  line-height: 1.6;
+  padding-bottom: 2rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-font-family: 'Inter Tight', sans-serif;
-color: var(--brand-primary);
-margin-top: 1rem;
-margin-bottom: 0.5rem;
-font-weight: 700;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter Tight", sans-serif;
+  color: var(--brand-primary);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
 }
 
-p { margin-bottom: 0.5rem; }
+p {
+  margin-bottom: 0.5rem;
+}
 
 /* =========================
 NAVBAR
 ========================= */
 .navbar {
-background-color: var(--brand-primary) !important;
-position: sticky !important;
-top: 0;
-z-index: 1030;
-min-height: 72px;
+  background-color: var(--brand-primary) !important;
+  position: sticky !important;
+  top: 0;
+  z-index: 1030;
+  min-height: 72px;
 }
 
 .navbar .nav-link,
 .navbar .navbar-brand {
-color: var(--brand-light) !important;
+  color: var(--brand-light) !important;
 }
 
 .navbar .nav-link.active,
 .navbar .nav-link:hover {
-border-bottom: 2px solid var(--brand-accent);
+  border-bottom: 2px solid var(--brand-accent);
 }
 
 .navbar-nav {
-gap: 1rem;
-align-items: center;
+  gap: 1rem;
+  align-items: center;
 }
 
 .brand-logo {
-height: 60px;
-display: block;
+  height: 60px;
+  display: block;
 }
 
 /* =========================
 CARDS
 ========================= */
 .card {
-background-color: var(--card-bg);
-border: 1px solid var(--card-border);
-border-radius: 0.5rem;
-box-shadow: 0 4px 12px var(--card-shadow);
-margin-bottom: 2rem;
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px var(--card-shadow);
+  margin-bottom: 2rem;
 }
 
 .card-header {
-font-weight: 700;
-color: var(--brand-primary);
-display: flex;
-align-items: center;
+  font-weight: 700;
+  color: var(--brand-primary);
+  display: flex;
+  align-items: center;
 }
 
-.card-body { padding: 1.5rem; }
+.card-body {
+  padding: 1.5rem;
+}
 
 /* =========================
 STICKY HERO
 ========================= */
 .sticky-hero-container {
-position: sticky;
-top: 72px;
-z-index: 1000;
-background-color: white;
-padding: 1.5rem 0;
-border-bottom: 2px solid var(--brand-primary);
-box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 72px;
+  z-index: 1000;
+  background-color: white;
+  padding: 1.5rem 0;
+  border-bottom: 2px solid var(--brand-primary);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* =========================
 FLOATING BUTTONS
 ========================= */
 .floating-reset-btn {
-position: fixed;
-bottom: 28px;
-right: 28px;
-z-index: 99999;
-width: 52px;
-height: 52px;
-border-radius: 50%;
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 99999;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
 }
 
 .floating-filter-status {
-position: fixed;
-bottom: 28px;
-left: 28px;
-z-index: 99999;
+  position: fixed;
+  bottom: 28px;
+  left: 28px;
+  z-index: 99999;
 }
 
 /* =========================
@@ -214,7 +223,7 @@ z-index: 99999;
 
 /* Title */
 .about-body .callout-title-container {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
   color: var(--brand-primary);

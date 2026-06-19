@@ -8,3 +8,4 @@ rsconnect-python/GlobalHub.json
 .DS_Store
 
 .quarto/project-cache-*/.quarto/
+/utils/__pycache__
